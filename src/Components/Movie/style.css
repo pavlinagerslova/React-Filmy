@@ -1,0 +1,18 @@
+li {
+    list-style: none;
+}
+
+.movie {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    gap: 10px;
+    align-items: center;
+}
+
+.movie-img-wrapper {
+    height: 200px;
+}
+
+.movie-img {
+    height: 100%;
+}
